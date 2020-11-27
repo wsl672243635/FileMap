@@ -7,21 +7,24 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="dependence" />
-        <module name="config-server" />
+        <module name="map-config-server" />
         <module name="eureka-server" />
+        <module name="map-admin-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="config-server" target="1.8" />
       <module name="dependence" target="1.8" />
-      <module name="eureka-server" target="1.5" />
+      <module name="eureka-server" target="1.8" />
+      <module name="map-admin-server" target="1.8" />
+      <module name="map-config-server" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="config-server" options="-parameters" />
       <module name="dependence" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
+      <module name="map-admin-server" options="-parameters" />
+      <module name="map-config-server" options="-parameters" />
     </option>
   </component>
 </project>

@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/dependence/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
         <option value="$PROJECT_DIR$/configserver/pom.xml" />
+        <option value="$PROJECT_DIR$/map-admin/pom.xml" />
       </list>
     </option>
   </component>
