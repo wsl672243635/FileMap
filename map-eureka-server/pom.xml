@@ -11,14 +11,20 @@
     </parent>
 
     <groupId>com.example.eureka-server</groupId>
-    <artifactId>eureka-server</artifactId>
+    <artifactId>map-eureka-server</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>eureka-server</name>
+    <name>map-eureka-server</name>
     <description>Demo project for Spring Boot</description>
 
     <dependencies>
-
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+        </dependency>
     </dependencies>
+
+
+
 
     <build>
         <plugins>

@@ -7,24 +7,31 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="dependence" />
-        <module name="map-config-server" />
+        <module name="config-server" />
         <module name="eureka-server" />
-        <module name="map-admin-server" />
+        <module name="map-zipkin-server" />
+        <module name="admin" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="admin" target="1.8" />
+      <module name="config-server" target="1.8" />
       <module name="dependence" target="1.8" />
       <module name="eureka-server" target="1.8" />
       <module name="map-admin-server" target="1.8" />
       <module name="map-config-server" target="1.8" />
+      <module name="map-zipkin-server" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="admin" options="-parameters" />
+      <module name="config-server" options="-parameters" />
       <module name="dependence" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
       <module name="map-admin-server" options="-parameters" />
       <module name="map-config-server" options="-parameters" />
+      <module name="map-zipkin-server" options="-parameters" />
     </option>
   </component>
 </project>

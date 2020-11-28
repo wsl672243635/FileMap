@@ -10,7 +10,12 @@
         <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
         <option value="$PROJECT_DIR$/configserver/pom.xml" />
         <option value="$PROJECT_DIR$/map-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/map-eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/map-config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/map-admin-server/pom.xml" />
+        <option value="$PROJECT_DIR$/map-zipkin-server/pom.xml" />
       </list>
     </option>
   </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>

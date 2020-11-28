@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/FileMap.iml" filepath="$PROJECT_DIR$/.idea/FileMap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/map-admin-server/admin.iml" filepath="$PROJECT_DIR$/map-admin-server/admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/map-config-server/config-server.iml" filepath="$PROJECT_DIR$/map-config-server/config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/dependence/dependence.iml" filepath="$PROJECT_DIR$/dependence/dependence.iml" />
       <module fileurl="file://$PROJECT_DIR$/map-eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/map-eureka-server/eureka-server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/map-admin-server/map-admin-server.iml" filepath="$PROJECT_DIR$/map-admin-server/map-admin-server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/map-config-server/map-config-server.iml" filepath="$PROJECT_DIR$/map-config-server/map-config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/map-zipkin-server/map-zipkin-server.iml" filepath="$PROJECT_DIR$/map-zipkin-server/map-zipkin-server.iml" />
     </modules>
   </component>
 </project>
