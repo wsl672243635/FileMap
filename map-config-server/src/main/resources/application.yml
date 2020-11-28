@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: cloudconfig
+  cloud:
+    config:
+#     label: main # 项目分支
+      server:
+        git: #git仓库地址
+          uri: https://github.com/wsl672243635/FileMap.git
+          username: 672243635@qq.com
+          password: hsl199440107
+          search-paths: map-config-server/demo
+          default-label: main
+#            force-pull: true
+
+server:
+  port: 8888 #固定端口号
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8080/eureka/ #服务注册中心
